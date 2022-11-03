@@ -26,6 +26,7 @@ Console.WriteLine(v3Cache);
 var v4 = V4.replaceTmeplateV3(template, dict);
 Console.WriteLine(v4);
 
+//红包字符串优化
 //文档地址 https://mp.weixin.qq.com/s/MAszOfaRMinhTbLFmxDacQ
 //v1版本是原版本
 //v2版本是减少indexOf 和substring 操作，利用双指针把模板里面所有变量都提取出来
